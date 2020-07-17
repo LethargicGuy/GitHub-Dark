@@ -8878,6 +8878,10 @@
   body.dotcom .octicon-state-pending {
     color: #373;
   }
+  /* support.github.com: "#d1d5da" */
+  body.dotcom #ticket .placeholder.write {
+    border-color: #404040;
+  }
   /* support.github.com: "color: #333" */
   body.dotcom #ticket-comments .attachment-name a,
   body.dotcom .attachment-name a:hover,
