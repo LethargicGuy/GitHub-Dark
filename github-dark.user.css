@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.39
+@version     2.1.40
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     BSD-2-Clause
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.39 (2020-07-17) */
+/*! Github Dark v2.1.40 (2020-07-17) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|docs|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
@@ -25067,7 +25067,7 @@
     background-color: #181818;
   }
   /* gitako: "#e1e4e8" */
-  .gitako-ready .pagehead.repohead {
+  .gitako-ready main > *:first-child {
     box-shadow: inset 0 -1px 0 #343434;
   }
   /* gitako: "#d1d5da", "#fafbfc" */
