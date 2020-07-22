@@ -10598,6 +10598,10 @@
   body.d-lg-flex div.dark-bg a, body.d-lg-flex div.dark-bg a h4 {
     color: #fff;
   }
+  /* docs.github.com: "#fff" */
+  body.d-lg-flex .btn-outline-mktg {
+    background-color: #181818;
+  }
   /* docs.github.com: "#05264c" */
   body.d-lg-flex .sidebar {
     background-color: #182030;
