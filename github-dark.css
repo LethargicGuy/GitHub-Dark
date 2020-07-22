@@ -15065,10 +15065,6 @@
   .billing-box-accordion-state .octicon {
     color: #afafaf;
   }
-  /* github.com: "#fff" */
-  .billing-box-progressBars span:nth-child(2) {
-    border-left-color: #181818;
-  }
   /* github.com: "color: #6a737d" */
   .blame-commit-date[data-heat="10"] {
     color: #949494;
