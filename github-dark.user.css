@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.48
+@version     2.1.49
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     BSD-2-Clause
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.48 (2020-07-23) */
+/*! Github Dark v2.1.49 (2020-07-24) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|docs|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
@@ -25082,6 +25082,14 @@
   /* notifications preview: "#e6ebf1" */
   .participating .js-notifications-browser::before {
     background-color: #444;
+  }
+  /* notifications preview: "transparent" */
+  .mark-all-as-read-confirmed label {
+    background-color: transparent;
+  }
+  /* notifications preview: "#e1e4e8" */
+  .NPG-dropdown .notifications-list-item:hover .notification-list-item-actions .btn {
+    background-color: #343434 !important;
   }
   /* end remap-css rules */
   body, body.bg-gray {
