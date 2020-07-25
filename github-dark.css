@@ -10461,10 +10461,6 @@
     background-color: #484;
     border-color: #484;
   }
-  /* docs.github.com: "color: #1074e7" */
-  body.d-lg-flex .btn-outline-mktg {
-    color: /*[[base-color]]*/ #4f8cc9;
-  }
   /* docs.github.com: "#0366d6", "#1074e7" */
   body.d-lg-flex .btn-outline-mktg:hover {
     color: /*[[base-color]]*/ #4f8cc9;
@@ -10598,9 +10594,22 @@
   body.d-lg-flex div.dark-bg a, body.d-lg-flex div.dark-bg a h4 {
     color: #fff;
   }
-  /* docs.github.com: "#fff" */
+  /* docs.github.com: "#0366d6" */
+  body.d-lg-flex .btn-mktg {
+    background-color: /*[[base-color]]*/ #4f8cc9;
+  }
+  /* docs.github.com: "#fff", "#0366d6" */
   body.d-lg-flex .btn-outline-mktg {
     background-color: #181818;
+    color: /*[[base-color]]*/ #4f8cc9;
+  }
+  /* docs.github.com: "#005cc5" */
+  body.d-lg-flex .bg-red-light a {
+    color: #4f8cc9;
+  }
+  /* docs.github.com: "color: #586069" */
+  body.d-lg-flex .markdown-body .bg-blue-light blockquote {
+    color: #afafaf;
   }
   /* docs.github.com: "#05264c" */
   body.d-lg-flex .sidebar {
@@ -10627,15 +10636,31 @@
   body.d-lg-flex iframe#graphiql {
     border-color: #343434;
   }
-  /* docs.github.com: "color: #333", "#f8f8f8" */
+  /* docs.github.com: "color: #24292e", "#fafbfc" */
   body.d-lg-flex .hljs {
-    color: #bebebe;
-    background-color: #202020;
+    color: #cdcdcd;
+    background-color: #181818;
   }
-  /* docs.github.com: "color: #333" */
+  /* docs.github.com: "color: #6a737d" */
+  body.d-lg-flex .hljs-comment, body.d-lg-flex .hljs-quote {
+    color: #949494;
+  }
+  /* docs.github.com: "color: #24292e" */
   body.d-lg-flex .hljs-keyword, body.d-lg-flex .hljs-selector-tag,
   body.d-lg-flex .hljs-subst {
-    color: #bebebe;
+    color: #cdcdcd;
+  }
+  /* docs.github.com: "#005cc5" */
+  body.d-lg-flex .hljs-doctag, body.d-lg-flex .hljs-string {
+    color: #4f8cc9;
+  }
+  /* docs.github.com: "#6f42c1" */
+  body.d-lg-flex .hljs-bullet, body.d-lg-flex .hljs-symbol {
+    color: #9378ba;
+  }
+  /* docs.github.com: "color: #6a737d" */
+  body.d-lg-flex .hljs-meta {
+    color: #949494;
   }
   /* docs.github.com: "none" */
   body.d-lg-flex .markdown-body table code {
