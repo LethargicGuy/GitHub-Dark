@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   StylishThemes
-@version     2.1.50
+@version     2.1.51
 @homepageURL https://github.com/StylishThemes/GitHub-Dark
 @updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
 @license     BSD-2-Clause
@@ -213,7 +213,7 @@
   } EOT;
 }
 ==/UserStyle== */
-/*! Github Dark v2.1.50 (2020-07-25) */
+/*! Github Dark v2.1.51 (2020-07-27) */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark */
 /*! License:    https://opensource.org/licenses/BSD-2-Clause */
 @-moz-document regexp("^https?://((education|gist|graphql|guides|docs|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
@@ -14015,16 +14015,6 @@
   .full-commit {
     background-color: #182030;
     border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com: "initial", "rgba(27,31,35,.15)" */
-  .full-commit .btn-outline, .full-commit .btn-outline:disabled {
-    background-color: initial;
-    border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com: "#005cc5", "#005cc5" */
-  .full-commit .btn-outline:not(:disabled):hover {
-    color: #4f8cc9;
-    border-color: #4f8cc9;
   }
   /* github.com: "color: #05264c" */
   .full-commit p.commit-title {
