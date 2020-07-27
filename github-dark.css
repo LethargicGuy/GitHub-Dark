@@ -13801,16 +13801,6 @@
     background-color: #182030;
     border-color: rgba(220, 220, 220, .15);
   }
-  /* github.com: "initial", "rgba(27,31,35,.15)" */
-  .full-commit .btn-outline, .full-commit .btn-outline:disabled {
-    background-color: initial;
-    border-color: rgba(220, 220, 220, .15);
-  }
-  /* github.com: "#005cc5", "#005cc5" */
-  .full-commit .btn-outline:not(:disabled):hover {
-    color: #4f8cc9;
-    border-color: #4f8cc9;
-  }
   /* github.com: "color: #05264c" */
   .full-commit p.commit-title {
     color: #bebebe;
