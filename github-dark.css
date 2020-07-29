@@ -18482,18 +18482,8 @@
   .Tile {
     background-color: #222;
   }
-  /* github.com: "#fafbfc" */
-  .bg-hero-dots-gray::before, .Tile:hover {
-    background-color: #181818;
-  }
-  /* github.com: "#fafbfc" */
-  @media (max-width: 1012px) {
-    .enterprise-section-container {
-      background-color: #181818;
-    }
-  }
   /* github.com: "#fff" */
-  .enterprise-garden-container::after {
+  .bg-hero-dots-gray::before, .enterprise-garden-container::after, .Tile:hover {
     background-color: #181818;
   }
   /* github.com: "#e1e4e8" */
